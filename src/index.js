@@ -28,7 +28,7 @@ module.exports =
             );
             return result.join(' ').trim();
         } else if (number > 99 && number < 110 || number > 199 && number < 210 ||
-            number > 299 && number < 310 || number > 499 && number < 510 ||
+            number > 299 && number < 310 || number > 499 && number < 510 || number > 399 && number < 410 ||
             number > 599 && number < 610 || number > 699 && number < 710 ||
             number > 799 && number < 810 || number > 899 && number < 910) {
             arrNumb.forEach((el, i) =>
