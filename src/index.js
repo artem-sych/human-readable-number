@@ -61,5 +61,3 @@ module.exports =
             return 'zero';
         }
     }
-
-console.log(toReadable(0));
