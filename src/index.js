@@ -56,7 +56,8 @@ module.exports =
             arrNumb.forEach((el, i) =>
                 result.push((i == 0) ? arr100[el] : (i == 1) ? arr20[el] : arr1[el])
             );
-            return result.join(' ');
+
+            return result.join(' ').trim();
         } else if (number == 0) {
             return 'zero';
         }
