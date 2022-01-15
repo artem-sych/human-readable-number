@@ -51,7 +51,7 @@ module.exports =
             number > 319 && number < 400 || number > 419 && number < 500 ||
             number > 519 && number < 600 || number > 619 && number < 700 ||
             number > 719 && number < 800 || number > 819 && number < 900 ||
-            number > 919 && number < 999
+            number > 919 && number < 1000
         ) {
             arrNumb.forEach((el, i) =>
                 result.push((i == 0) ? arr100[el] : (i == 1) ? arr20[el] : arr1[el])
