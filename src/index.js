@@ -26,7 +26,7 @@ module.exports =
             arrNumb.forEach((el, i) =>
                 result.push((i == 0) ? arr20[el] : arr1[el])
             );
-            return result.join(' ');
+            return result.join(' ').trim();
         } else if (number > 99 && number < 110 || number > 199 && number < 210 ||
             number > 299 && number < 310 || number > 499 && number < 510 ||
             number > 599 && number < 610 || number > 699 && number < 710 ||
@@ -35,7 +35,7 @@ module.exports =
                 result.push((i == 0) ? arr100[el] : (i == 1) ? arr10[el] : arr1[el])
             );
             let x = result.splice(1, 1);
-            return result.join(' ');
+            return result.join(' ').trim();
         } else if (number > 109 && number < 120 || number > 209 && number < 220 ||
             number > 309 && number < 320 || number > 409 && number < 420 ||
             number > 509 && number < 520 || number > 609 && number < 620 ||
@@ -46,7 +46,7 @@ module.exports =
                 result.push((i == 0) ? arr100[el] : (i == 2) ? arr10[el + 1] : '')
             );
             let x = result.splice(1, 1);
-            return result.join(' ');
+            return result.join(' ').trim();
         } else if (number > 119 && number < 200 || number > 219 && number < 300 ||
             number > 319 && number < 400 || number > 419 && number < 500 ||
             number > 519 && number < 600 || number > 619 && number < 700 ||
